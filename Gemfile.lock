@@ -1,0 +1,215 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    abstract (1.0.0)
+    actionpack (3.0.0)
+      activemodel (= 3.0.0)
+      activesupport (= 3.0.0)
+      builder (~> 2.1.2)
+      erubis (~> 2.6.6)
+      i18n (~> 0.4.1)
+      rack (~> 1.2.1)
+      rack-mount (~> 0.6.12)
+      rack-test (~> 0.5.4)
+      tzinfo (~> 0.3.23)
+    active_support (3.0.0)
+      activesupport (= 3.0.0)
+    activemodel (3.0.0)
+      activesupport (= 3.0.0)
+      builder (~> 2.1.2)
+      i18n (~> 0.4.1)
+    activesupport (3.0.0)
+    adsf (1.2.0)
+      rack (>= 1.0.0)
+    awesome_print (1.2.0)
+    better_errors (1.1.0)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    brakeman (2.3.1)
+      erubis (~> 2.6)
+      fastercsv (~> 1.5)
+      haml (>= 3.0, < 5.0)
+      highline (~> 1.6.20)
+      multi_json (~> 1.2)
+      ruby2ruby (~> 2.0.5)
+      ruby_parser (~> 3.2.2)
+      sass (~> 3.0)
+      slim (>= 1.3.6, < 3.0)
+      terminal-table (~> 1.4)
+    builder (2.1.2)
+    bullet (4.7.1)
+      activesupport
+      uniform_notifier (>= 1.4.0)
+    cane (2.6.1)
+      parallel
+    cane-hashcheck (1.2.0)
+      cane
+    coderay (1.1.0)
+    columnize (0.3.6)
+    database_cleaner (1.2.0)
+    debug_inspector (0.0.2)
+    debugger (1.6.4)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.3.0)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.3.0)
+    diff-lcs (1.2.5)
+    docile (1.1.1)
+    erubis (2.6.6)
+      abstract (>= 1.0.0)
+    excellent (2.1.0)
+      hashr (>= 0.0.10)
+      ruby_parser (>= 3.0)
+      sexp_processor (>= 4.0)
+    fastercsv (1.5.5)
+    ffi (1.9.3)
+    formatador (0.2.4)
+    gem-open (0.1.6)
+    guard (1.8.3)
+      formatador (>= 0.2.4)
+      listen (~> 1.3)
+      lumberjack (>= 1.0.2)
+      pry (>= 0.9.10)
+      thor (>= 0.14.6)
+    guard-rspec (3.1.0)
+      guard (>= 1.8)
+      rspec (~> 2.13)
+    haml (4.0.4)
+      tilt
+    hashr (0.0.22)
+    high_voltage (2.0.0)
+    highline (1.6.20)
+    i18n (0.4.2)
+    jquery-rails (3.0.4)
+      railties (>= 3.0, < 5.0)
+      thor (>= 0.14, < 2.0)
+    json (1.8.1)
+    kramdown (1.3.0)
+    listen (1.3.1)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      rb-kqueue (>= 0.2)
+    lumberjack (1.0.4)
+    method_source (0.8.2)
+    multi_json (1.8.2)
+    parallel (0.9.1)
+    pg (0.17.1)
+    pry (0.9.12.4)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry-debugger (0.2.2)
+      debugger (~> 1.3)
+      pry (~> 0.9.10)
+    pry-doc (0.5.1)
+      pry (>= 0.9)
+      yard (>= 0.8)
+    pry-rails (0.3.2)
+      pry (>= 0.9.10)
+    pry-stack_explorer (0.4.9.1)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
+    rack (1.2.8)
+    rack-mount (0.6.14)
+      rack (>= 1.0.0)
+    rack-test (0.5.7)
+      rack (>= 1.0)
+    rack-timeout (0.0.4)
+    railties (3.0.0)
+      actionpack (= 3.0.0)
+      activesupport (= 3.0.0)
+      rake (>= 0.8.4)
+      thor (~> 0.14.0)
+    rake (10.1.1)
+    rb-fsevent (0.9.3)
+    rb-inotify (0.9.3)
+      ffi (>= 0.5.0)
+    rb-kqueue (0.2.0)
+      ffi (>= 0.5.0)
+    rspec (2.14.1)
+      rspec-core (~> 2.14.0)
+      rspec-expectations (~> 2.14.0)
+      rspec-mocks (~> 2.14.0)
+    rspec-core (2.14.7)
+    rspec-expectations (2.14.4)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.14.4)
+    rspec-rails (2.14.0)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec-core (~> 2.14.0)
+      rspec-expectations (~> 2.14.0)
+      rspec-mocks (~> 2.14.0)
+    ruby2ruby (2.0.7)
+      ruby_parser (~> 3.1)
+      sexp_processor (~> 4.0)
+    ruby_parser (3.2.2)
+      sexp_processor (~> 4.1)
+    rubytree (0.8.3)
+      json (>= 1.7.5)
+      structured_warnings (>= 0.1.3)
+    sass (3.2.13)
+    sexp_processor (4.4.1)
+    shoulda-matchers (2.4.0)
+      activesupport (>= 3.0.0)
+    simple_form (2.1.1)
+      actionpack (~> 3.0)
+      activemodel (~> 3.0)
+    simplecov (0.8.2)
+      docile (~> 1.1.0)
+      multi_json
+      simplecov-html (~> 0.8.0)
+    simplecov-html (0.8.0)
+    slim (2.0.2)
+      temple (~> 0.6.6)
+      tilt (>= 1.3.3, < 2.1)
+    slop (3.4.7)
+    structured_warnings (0.1.4)
+    temple (0.6.7)
+    terminal-table (1.4.5)
+    thor (0.14.6)
+    tilt (2.0.0)
+    tzinfo (0.3.38)
+    uniform_notifier (1.4.0)
+    will_paginate (3.0.5)
+    yard (0.8.7.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  active_support
+  adsf
+  awesome_print
+  better_errors
+  brakeman
+  bullet
+  cane
+  cane-hashcheck
+  database_cleaner
+  excellent
+  gem-open
+  guard-rspec
+  high_voltage
+  jquery-rails
+  kramdown
+  pg
+  pry
+  pry-debugger
+  pry-doc
+  pry-rails
+  pry-stack_explorer
+  rack-timeout
+  rspec
+  rspec-expectations
+  rspec-mocks
+  rspec-rails
+  rubytree
+  shoulda-matchers
+  simple_form
+  simplecov
+  will_paginate

@@ -1,0 +1,348 @@
+# Logfile created on 2013-12-28 10:10:22 -0500 by logger.rb/44203
+I, [2013-12-28T10:10:22.562135 #30212]  INFO -- : 0:  activesupport (3.0.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/activesupport-3.0.0.gemspec
+I, [2013-12-28T10:10:23.208756 #30212]  INFO -- : 0:  active_support (3.0.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/active_support-3.0.0.gemspec
+I, [2013-12-28T10:10:23.209142 #30212]  INFO -- : 0:  rack (1.5.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-1.5.2.gemspec
+I, [2013-12-28T10:10:24.572397 #30212]  INFO -- : 0:  adsf (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/adsf-1.2.0.gemspec
+I, [2013-12-28T10:10:25.758349 #30212]  INFO -- : 0:  awesome_print (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/awesome_print-1.2.0.gemspec
+I, [2013-12-28T10:10:26.603252 #30212]  INFO -- : 0:  debug_inspector (0.0.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debug_inspector-0.0.2.gemspec
+I, [2013-12-28T10:10:27.966424 #30212]  INFO -- : 0:  binding_of_caller (0.7.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/binding_of_caller-0.7.2.gemspec
+I, [2013-12-28T10:10:28.690673 #30212]  INFO -- : 0:  timers (1.1.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/timers-1.1.0.gemspec
+I, [2013-12-28T10:10:29.892102 #30212]  INFO -- : 0:  celluloid (0.15.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/celluloid-0.15.2.gemspec
+I, [2013-12-28T10:10:31.261622 #30212]  INFO -- : 0:  coderay (1.1.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/coderay-1.1.0.gemspec
+I, [2013-12-28T10:10:31.953290 #30212]  INFO -- : 0:  colored (1.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/colored-1.2.gemspec
+I, [2013-12-28T10:10:32.624671 #30212]  INFO -- : 0:  columnize (0.3.6) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/columnize-0.3.6.gemspec
+I, [2013-12-28T10:10:33.744224 #30212]  INFO -- : 0:  cri (2.4.1) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/cri-2.4.1.gemspec
+I, [2013-12-28T10:10:35.137928 #30212]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debugger-linecache-1.2.0.gemspec
+I, [2013-12-28T10:10:37.826693 #30212]  INFO -- : 0:  debugger-ruby_core_source (1.3.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debugger-ruby_core_source-1.3.0.gemspec
+E, [2013-12-28T10:10:39.605209 #30212] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/pitosalas/.rbenv/versions/2.1.0/bin/ruby extconf.rb 
+Ruby version 2.1.0 is not supported.
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/pitosalas/.rbenv/versions/2.1.0/bin/ruby
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/debugger-1.6.4 for inspection.
+Results logged to /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/debugger-1.6.4/gem_make.out
+
+/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/pitosalas/.rbenv/versions/2.1.0/bin/bundle:23:in `load'  \n/Users/pitosalas/.rbenv/versions/2.1.0/bin/bundle:23:in `<main>'
+I, [2013-12-28T10:11:44.189184 #30373]  INFO -- : 0:  activesupport (3.0.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/activesupport-3.0.0.gemspec
+I, [2013-12-28T10:11:44.189953 #30373]  INFO -- : 0:  active_support (3.0.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/active_support-3.0.0.gemspec
+I, [2013-12-28T10:11:44.190311 #30373]  INFO -- : 0:  rack (1.5.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-1.5.2.gemspec
+I, [2013-12-28T10:11:44.190662 #30373]  INFO -- : 0:  adsf (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/adsf-1.2.0.gemspec
+I, [2013-12-28T10:11:44.191012 #30373]  INFO -- : 0:  awesome_print (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/awesome_print-1.2.0.gemspec
+I, [2013-12-28T10:11:44.191364 #30373]  INFO -- : 0:  debug_inspector (0.0.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debug_inspector-0.0.2.gemspec
+I, [2013-12-28T10:11:44.191746 #30373]  INFO -- : 0:  binding_of_caller (0.7.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/binding_of_caller-0.7.2.gemspec
+I, [2013-12-28T10:11:44.192095 #30373]  INFO -- : 0:  timers (1.1.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/timers-1.1.0.gemspec
+I, [2013-12-28T10:11:44.192438 #30373]  INFO -- : 0:  celluloid (0.15.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/celluloid-0.15.2.gemspec
+I, [2013-12-28T10:11:44.192775 #30373]  INFO -- : 0:  coderay (1.1.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/coderay-1.1.0.gemspec
+I, [2013-12-28T10:11:44.193111 #30373]  INFO -- : 0:  colored (1.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/colored-1.2.gemspec
+I, [2013-12-28T10:11:44.193446 #30373]  INFO -- : 0:  columnize (0.3.6) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/columnize-0.3.6.gemspec
+I, [2013-12-28T10:11:44.193779 #30373]  INFO -- : 0:  cri (2.4.1) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/cri-2.4.1.gemspec
+I, [2013-12-28T10:11:44.194117 #30373]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debugger-linecache-1.2.0.gemspec
+I, [2013-12-28T10:11:44.194455 #30373]  INFO -- : 0:  debugger-ruby_core_source (1.3.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debugger-ruby_core_source-1.3.0.gemspec
+E, [2013-12-28T10:11:44.422089 #30373] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/pitosalas/.rbenv/versions/2.1.0/bin/ruby extconf.rb 
+Ruby version 2.1.0 is not supported.
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/pitosalas/.rbenv/versions/2.1.0/bin/ruby
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/debugger-1.6.4 for inspection.
+Results logged to /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/debugger-1.6.4/gem_make.out
+
+/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/pitosalas/.rbenv/versions/2.1.0/bin/bundle:23:in `load'  \n/Users/pitosalas/.rbenv/versions/2.1.0/bin/bundle:23:in `<main>'
+I, [2013-12-28T10:13:12.745981 #30435]  INFO -- : 0:  activesupport (3.0.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/activesupport-3.0.0.gemspec
+I, [2013-12-28T10:13:12.746419 #30435]  INFO -- : 0:  active_support (3.0.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/active_support-3.0.0.gemspec
+I, [2013-12-28T10:13:12.746781 #30435]  INFO -- : 0:  rack (1.5.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-1.5.2.gemspec
+I, [2013-12-28T10:13:12.747342 #30435]  INFO -- : 0:  adsf (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/adsf-1.2.0.gemspec
+I, [2013-12-28T10:13:12.747699 #30435]  INFO -- : 0:  awesome_print (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/awesome_print-1.2.0.gemspec
+I, [2013-12-28T10:13:12.748063 #30435]  INFO -- : 0:  debug_inspector (0.0.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debug_inspector-0.0.2.gemspec
+I, [2013-12-28T10:13:12.748426 #30435]  INFO -- : 0:  binding_of_caller (0.7.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/binding_of_caller-0.7.2.gemspec
+I, [2013-12-28T10:13:12.748772 #30435]  INFO -- : 0:  timers (1.1.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/timers-1.1.0.gemspec
+I, [2013-12-28T10:13:12.749125 #30435]  INFO -- : 0:  celluloid (0.15.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/celluloid-0.15.2.gemspec
+I, [2013-12-28T10:13:12.749477 #30435]  INFO -- : 0:  coderay (1.1.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/coderay-1.1.0.gemspec
+I, [2013-12-28T10:13:12.749827 #30435]  INFO -- : 0:  colored (1.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/colored-1.2.gemspec
+I, [2013-12-28T10:13:12.750170 #30435]  INFO -- : 0:  columnize (0.3.6) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/columnize-0.3.6.gemspec
+I, [2013-12-28T10:13:12.750520 #30435]  INFO -- : 0:  cri (2.4.1) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/cri-2.4.1.gemspec
+I, [2013-12-28T10:13:12.750876 #30435]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debugger-linecache-1.2.0.gemspec
+I, [2013-12-28T10:13:12.751239 #30435]  INFO -- : 0:  debugger-ruby_core_source (1.3.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debugger-ruby_core_source-1.3.0.gemspec
+E, [2013-12-28T10:13:12.985016 #30435] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/pitosalas/.rbenv/versions/2.1.0/bin/ruby extconf.rb 
+Ruby version 2.1.0 is not supported.
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/pitosalas/.rbenv/versions/2.1.0/bin/ruby
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/debugger-1.6.4 for inspection.
+Results logged to /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/debugger-1.6.4/gem_make.out
+
+/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/pitosalas/.rbenv/versions/2.1.0/bin/bundle:23:in `load'  \n/Users/pitosalas/.rbenv/versions/2.1.0/bin/bundle:23:in `<main>'
+I, [2013-12-28T10:14:04.116129 #30608]  INFO -- : 0:  activesupport (3.0.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/activesupport-3.0.0.gemspec
+I, [2013-12-28T10:14:04.116549 #30608]  INFO -- : 0:  active_support (3.0.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/active_support-3.0.0.gemspec
+I, [2013-12-28T10:14:04.116903 #30608]  INFO -- : 0:  rack (1.5.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-1.5.2.gemspec
+I, [2013-12-28T10:14:04.117252 #30608]  INFO -- : 0:  adsf (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/adsf-1.2.0.gemspec
+I, [2013-12-28T10:14:04.117962 #30608]  INFO -- : 0:  awesome_print (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/awesome_print-1.2.0.gemspec
+I, [2013-12-28T10:14:04.118322 #30608]  INFO -- : 0:  debug_inspector (0.0.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debug_inspector-0.0.2.gemspec
+I, [2013-12-28T10:14:04.118676 #30608]  INFO -- : 0:  binding_of_caller (0.7.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/binding_of_caller-0.7.2.gemspec
+I, [2013-12-28T10:14:04.119035 #30608]  INFO -- : 0:  timers (1.1.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/timers-1.1.0.gemspec
+I, [2013-12-28T10:14:04.119392 #30608]  INFO -- : 0:  celluloid (0.15.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/celluloid-0.15.2.gemspec
+I, [2013-12-28T10:14:04.119754 #30608]  INFO -- : 0:  coderay (1.1.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/coderay-1.1.0.gemspec
+I, [2013-12-28T10:14:04.120104 #30608]  INFO -- : 0:  colored (1.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/colored-1.2.gemspec
+I, [2013-12-28T10:14:04.120461 #30608]  INFO -- : 0:  columnize (0.3.6) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/columnize-0.3.6.gemspec
+I, [2013-12-28T10:14:04.120815 #30608]  INFO -- : 0:  cri (2.4.1) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/cri-2.4.1.gemspec
+I, [2013-12-28T10:14:04.121177 #30608]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debugger-linecache-1.2.0.gemspec
+I, [2013-12-28T10:14:04.121537 #30608]  INFO -- : 0:  debugger-ruby_core_source (1.3.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debugger-ruby_core_source-1.3.0.gemspec
+E, [2013-12-28T10:14:04.360393 #30608] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/pitosalas/.rbenv/versions/2.1.0/bin/ruby extconf.rb 
+Ruby version 2.1.0 is not supported.
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/pitosalas/.rbenv/versions/2.1.0/bin/ruby
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/debugger-1.6.4 for inspection.
+Results logged to /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/debugger-1.6.4/gem_make.out
+
+/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/pitosalas/.rbenv/versions/2.1.0/bin/bundle:23:in `load'  \n/Users/pitosalas/.rbenv/versions/2.1.0/bin/bundle:23:in `<main>'
+I, [2013-12-28T10:24:37.986541 #51749]  INFO -- : 0:  activesupport (3.0.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/activesupport-3.0.0.gemspec
+I, [2013-12-28T10:24:37.986976 #51749]  INFO -- : 0:  active_support (3.0.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/active_support-3.0.0.gemspec
+I, [2013-12-28T10:24:37.987330 #51749]  INFO -- : 0:  rack (1.5.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-1.5.2.gemspec
+I, [2013-12-28T10:24:37.987677 #51749]  INFO -- : 0:  adsf (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/adsf-1.2.0.gemspec
+I, [2013-12-28T10:24:37.988013 #51749]  INFO -- : 0:  awesome_print (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/awesome_print-1.2.0.gemspec
+I, [2013-12-28T10:24:37.988380 #51749]  INFO -- : 0:  debug_inspector (0.0.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debug_inspector-0.0.2.gemspec
+I, [2013-12-28T10:24:37.988729 #51749]  INFO -- : 0:  binding_of_caller (0.7.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/binding_of_caller-0.7.2.gemspec
+I, [2013-12-28T10:24:37.989078 #51749]  INFO -- : 0:  timers (1.1.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/timers-1.1.0.gemspec
+I, [2013-12-28T10:24:37.989427 #51749]  INFO -- : 0:  celluloid (0.15.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/celluloid-0.15.2.gemspec
+I, [2013-12-28T10:24:37.989779 #51749]  INFO -- : 0:  coderay (1.1.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/coderay-1.1.0.gemspec
+I, [2013-12-28T10:24:37.990131 #51749]  INFO -- : 0:  colored (1.2) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/colored-1.2.gemspec
+I, [2013-12-28T10:24:37.990480 #51749]  INFO -- : 0:  columnize (0.3.6) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/columnize-0.3.6.gemspec
+I, [2013-12-28T10:24:37.990827 #51749]  INFO -- : 0:  cri (2.4.1) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/cri-2.4.1.gemspec
+I, [2013-12-28T10:24:37.991180 #51749]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debugger-linecache-1.2.0.gemspec
+I, [2013-12-28T10:24:37.991523 #51749]  INFO -- : 0:  debugger-ruby_core_source (1.3.0) from /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/debugger-ruby_core_source-1.3.0.gemspec
+E, [2013-12-28T10:24:38.233096 #51749] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/pitosalas/.rbenv/versions/2.1.0/bin/ruby extconf.rb 
+Ruby version 2.1.0 is not supported.
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/pitosalas/.rbenv/versions/2.1.0/bin/ruby
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/debugger-1.6.4 for inspection.
+Results logged to /Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/debugger-1.6.4/gem_make.out
+
+/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/pitosalas/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/pitosalas/.rbenv/versions/2.1.0/bin/bundle:23:in `load'  \n/Users/pitosalas/.rbenv/versions/2.1.0/bin/bundle:23:in `<main>'
+I, [2013-12-28T10:27:39.865559 #53091]  INFO -- : 0:  activesupport (3.0.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activesupport-3.0.0.gemspec
+I, [2013-12-28T10:27:40.495515 #53091]  INFO -- : 0:  active_support (3.0.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/active_support-3.0.0.gemspec
+I, [2013-12-28T10:27:40.495899 #53091]  INFO -- : 0:  rack (1.5.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2013-12-28T10:27:41.532418 #53091]  INFO -- : 0:  adsf (1.2.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/adsf-1.2.0.gemspec
+I, [2013-12-28T10:27:42.634088 #53091]  INFO -- : 0:  awesome_print (1.2.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/awesome_print-1.2.0.gemspec
+I, [2013-12-28T10:27:43.431110 #53091]  INFO -- : 0:  debug_inspector (0.0.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/debug_inspector-0.0.2.gemspec
+I, [2013-12-28T10:27:44.789886 #53091]  INFO -- : 0:  binding_of_caller (0.7.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/binding_of_caller-0.7.2.gemspec
+I, [2013-12-28T10:27:45.521577 #53091]  INFO -- : 0:  timers (1.1.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/timers-1.1.0.gemspec
+I, [2013-12-28T10:27:46.706049 #53091]  INFO -- : 0:  celluloid (0.15.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/celluloid-0.15.2.gemspec
+I, [2013-12-28T10:27:48.168774 #53091]  INFO -- : 0:  coderay (1.1.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coderay-1.1.0.gemspec
+I, [2013-12-28T10:27:48.944871 #53091]  INFO -- : 0:  colored (1.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/colored-1.2.gemspec
+I, [2013-12-28T10:27:49.601619 #53091]  INFO -- : 0:  columnize (0.3.6) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/columnize-0.3.6.gemspec
+I, [2013-12-28T10:27:50.723205 #53091]  INFO -- : 0:  cri (2.4.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/cri-2.4.1.gemspec
+I, [2013-12-28T10:27:51.861892 #53091]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/debugger-linecache-1.2.0.gemspec
+I, [2013-12-28T10:27:54.680251 #53091]  INFO -- : 0:  debugger-ruby_core_source (1.3.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/debugger-ruby_core_source-1.3.0.gemspec
+I, [2013-12-28T10:27:57.969167 #53091]  INFO -- : 0:  debugger (1.6.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/debugger-1.6.4.gemspec
+I, [2013-12-28T10:27:59.735541 #53091]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/diff-lcs-1.2.5.gemspec
+I, [2013-12-28T10:28:07.098305 #53091]  INFO -- : 0:  ffi (1.9.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/ffi-1.9.3.gemspec
+I, [2013-12-28T10:28:07.773414 #53091]  INFO -- : 0:  formatador (0.2.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/formatador-0.2.4.gemspec
+I, [2013-12-28T10:28:08.812943 #53091]  INFO -- : 0:  gem-open (0.1.6) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/gem-open-0.1.6.gemspec
+I, [2013-12-28T10:28:10.012841 #53091]  INFO -- : 0:  rb-fsevent (0.9.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rb-fsevent-0.9.3.gemspec
+I, [2013-12-28T10:28:10.985305 #53091]  INFO -- : 0:  rb-inotify (0.9.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rb-inotify-0.9.3.gemspec
+I, [2013-12-28T10:28:12.083566 #53091]  INFO -- : 0:  listen (2.4.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/listen-2.4.0.gemspec
+I, [2013-12-28T10:28:13.203789 #53091]  INFO -- : 0:  lumberjack (1.0.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/lumberjack-1.0.4.gemspec
+I, [2013-12-28T10:28:14.238312 #53091]  INFO -- : 0:  method_source (0.8.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/method_source-0.8.2.gemspec
+I, [2013-12-28T10:28:15.374529 #53091]  INFO -- : 0:  slop (3.4.7) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/slop-3.4.7.gemspec
+I, [2013-12-28T10:28:17.031914 #53091]  INFO -- : 0:  pry (0.9.12.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/pry-0.9.12.4.gemspec
+I, [2013-12-28T10:28:17.032846 #53091]  INFO -- : 0:  thor (0.18.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2013-12-28T10:28:18.602341 #53091]  INFO -- : 0:  guard (2.2.5) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/guard-2.2.5.gemspec
+I, [2013-12-28T10:28:20.194703 #53091]  INFO -- : 0:  nanoc (3.6.7) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/nanoc-3.6.7.gemspec
+I, [2013-12-28T10:28:21.160966 #53091]  INFO -- : 0:  guard-nanoc (1.0.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/guard-nanoc-1.0.2.gemspec
+I, [2013-12-28T10:28:21.932788 #53091]  INFO -- : 0:  hirb (0.7.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/hirb-0.7.1.gemspec
+I, [2013-12-28T10:28:22.558200 #53091]  INFO -- : 0:  jsmin (1.0.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/jsmin-1.0.1.gemspec
+I, [2013-12-28T10:28:24.808198 #53091]  INFO -- : 0:  json (1.8.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2013-12-28T10:28:26.121028 #53091]  INFO -- : 0:  kramdown (1.3.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/kramdown-1.3.0.gemspec
+I, [2013-12-28T10:28:26.768954 #53091]  INFO -- : 0:  mini_portile (0.5.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mini_portile-0.5.2.gemspec
+I, [2013-12-28T10:29:54.539038 #53091]  INFO -- : 0:  nokogiri (1.6.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/nokogiri-1.6.1.gemspec
+I, [2013-12-28T10:29:56.100758 #53091]  INFO -- : 0:  nanoc-toolbox (0.1.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/nanoc-toolbox-0.1.3.gemspec
+I, [2013-12-28T10:29:57.155069 #53091]  INFO -- : 0:  pry-debugger (0.2.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/pry-debugger-0.2.2.gemspec
+I, [2013-12-28T10:29:58.279372 #53091]  INFO -- : 0:  pry-stack_explorer (0.4.9.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/pry-stack_explorer-0.4.9.1.gemspec
+I, [2013-12-28T10:29:59.848199 #53091]  INFO -- : 0:  rspec-core (2.14.7) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-core-2.14.7.gemspec
+I, [2013-12-28T10:30:00.829533 #53091]  INFO -- : 0:  rspec-expectations (2.14.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-expectations-2.14.4.gemspec
+I, [2013-12-28T10:30:02.241350 #53091]  INFO -- : 0:  rspec-mocks (2.14.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-mocks-2.14.4.gemspec
+I, [2013-12-28T10:30:02.989070 #53091]  INFO -- : 0:  rspec (2.14.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-2.14.1.gemspec
+I, [2013-12-28T10:30:04.260911 #53091]  INFO -- : 0:  structured_warnings (0.1.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/structured_warnings-0.1.4.gemspec
+I, [2013-12-28T10:30:05.100211 #53091]  INFO -- : 0:  rubytree (0.8.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rubytree-0.8.3.gemspec
+I, [2013-12-28T10:30:05.100602 #53091]  INFO -- : 0:  bundler (1.5.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2013-12-28T11:04:13.719450 #70319]  INFO -- : 0:  rake (10.1.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rake-10.1.1.gemspec
+I, [2013-12-28T11:04:14.400670 #70319]  INFO -- : 0:  abstract (1.0.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/abstract-1.0.0.gemspec
+I, [2013-12-28T11:04:14.401095 #70319]  INFO -- : 0:  activesupport (3.0.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activesupport-3.0.0.gemspec
+I, [2013-12-28T11:04:15.609003 #70319]  INFO -- : 0:  builder (2.1.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/builder-2.1.2.gemspec
+I, [2013-12-28T11:04:16.423479 #70319]  INFO -- : 0:  i18n (0.4.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/i18n-0.4.2.gemspec
+I, [2013-12-28T11:04:17.143724 #70319]  INFO -- : 0:  activemodel (3.0.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activemodel-3.0.0.gemspec
+I, [2013-12-28T11:04:18.360752 #70319]  INFO -- : 0:  erubis (2.6.6) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/erubis-2.6.6.gemspec
+I, [2013-12-28T11:04:19.901893 #70319]  INFO -- : 0:  rack (1.2.8) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-1.2.8.gemspec
+I, [2013-12-28T11:04:20.662455 #70319]  INFO -- : 0:  rack-mount (0.6.14) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-mount-0.6.14.gemspec
+I, [2013-12-28T11:04:21.505851 #70319]  INFO -- : 0:  rack-test (0.5.7) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-test-0.5.7.gemspec
+I, [2013-12-28T11:04:21.506275 #70319]  INFO -- : 0:  tzinfo (0.3.38) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/tzinfo-0.3.38.gemspec
+I, [2013-12-28T11:04:22.695852 #70319]  INFO -- : 0:  actionpack (3.0.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/actionpack-3.0.0.gemspec
+I, [2013-12-28T11:04:22.696266 #70319]  INFO -- : 0:  active_support (3.0.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/active_support-3.0.0.gemspec
+I, [2013-12-28T11:04:22.696562 #70319]  INFO -- : 0:  adsf (1.2.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/adsf-1.2.0.gemspec
+I, [2013-12-28T11:04:22.696857 #70319]  INFO -- : 0:  awesome_print (1.2.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/awesome_print-1.2.0.gemspec
+I, [2013-12-28T11:04:22.697148 #70319]  INFO -- : 0:  coderay (1.1.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coderay-1.1.0.gemspec
+I, [2013-12-28T11:04:23.895506 #70319]  INFO -- : 0:  better_errors (1.1.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/better_errors-1.1.0.gemspec
+I, [2013-12-28T11:04:23.895866 #70319]  INFO -- : 0:  debug_inspector (0.0.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/debug_inspector-0.0.2.gemspec
+I, [2013-12-28T11:04:23.896163 #70319]  INFO -- : 0:  binding_of_caller (0.7.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/binding_of_caller-0.7.2.gemspec
+I, [2013-12-28T11:04:24.788150 #70319]  INFO -- : 0:  fastercsv (1.5.5) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/fastercsv-1.5.5.gemspec
+I, [2013-12-28T11:04:26.130539 #70319]  INFO -- : 0:  tilt (2.0.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/tilt-2.0.0.gemspec
+I, [2013-12-28T11:04:27.178320 #70319]  INFO -- : 0:  haml (4.0.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/haml-4.0.4.gemspec
+I, [2013-12-28T11:04:29.024131 #70319]  INFO -- : 0:  highline (1.6.20) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/highline-1.6.20.gemspec
+I, [2013-12-28T11:04:29.024593 #70319]  INFO -- : 0:  multi_json (1.8.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2013-12-28T11:04:29.024900 #70319]  INFO -- : 0:  sexp_processor (4.4.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sexp_processor-4.4.1.gemspec
+I, [2013-12-28T11:04:29.025204 #70319]  INFO -- : 0:  ruby_parser (3.2.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/ruby_parser-3.2.2.gemspec
+I, [2013-12-28T11:04:29.025499 #70319]  INFO -- : 0:  ruby2ruby (2.0.7) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/ruby2ruby-2.0.7.gemspec
+I, [2013-12-28T11:04:30.875456 #70319]  INFO -- : 0:  sass (3.2.13) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sass-3.2.13.gemspec
+I, [2013-12-28T11:04:31.595799 #70319]  INFO -- : 0:  temple (0.6.7) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/temple-0.6.7.gemspec
+I, [2013-12-28T11:04:33.083135 #70319]  INFO -- : 0:  slim (2.0.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/slim-2.0.2.gemspec
+I, [2013-12-28T11:04:33.730757 #70319]  INFO -- : 0:  terminal-table (1.4.5) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/terminal-table-1.4.5.gemspec
+I, [2013-12-28T11:04:35.196802 #70319]  INFO -- : 0:  brakeman (2.3.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/brakeman-2.3.1.gemspec
+I, [2013-12-28T11:04:36.238232 #70319]  INFO -- : 0:  uniform_notifier (1.4.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/uniform_notifier-1.4.0.gemspec
+I, [2013-12-28T11:04:37.451672 #70319]  INFO -- : 0:  bullet (4.7.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/bullet-4.7.1.gemspec
+I, [2013-12-28T11:04:37.452109 #70319]  INFO -- : 0:  parallel (0.9.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/parallel-0.9.1.gemspec
+I, [2013-12-28T11:04:37.452407 #70319]  INFO -- : 0:  cane (2.6.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/cane-2.6.1.gemspec
+I, [2013-12-28T11:04:38.444309 #70319]  INFO -- : 0:  cane-hashcheck (1.2.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/cane-hashcheck-1.2.0.gemspec
+I, [2013-12-28T11:04:38.444677 #70319]  INFO -- : 0:  columnize (0.3.6) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/columnize-0.3.6.gemspec
+I, [2013-12-28T11:04:39.640750 #70319]  INFO -- : 0:  database_cleaner (1.2.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/database_cleaner-1.2.0.gemspec
+I, [2013-12-28T11:04:39.641182 #70319]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/debugger-linecache-1.2.0.gemspec
+I, [2013-12-28T11:04:39.641480 #70319]  INFO -- : 0:  debugger-ruby_core_source (1.3.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/debugger-ruby_core_source-1.3.0.gemspec
+I, [2013-12-28T11:04:39.641774 #70319]  INFO -- : 0:  debugger (1.6.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/debugger-1.6.4.gemspec
+I, [2013-12-28T11:04:39.642066 #70319]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/diff-lcs-1.2.5.gemspec
+I, [2013-12-28T11:04:40.683584 #70319]  INFO -- : 0:  docile (1.1.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/docile-1.1.1.gemspec
+I, [2013-12-28T11:04:41.401237 #70319]  INFO -- : 0:  hashr (0.0.22) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/hashr-0.0.22.gemspec
+I, [2013-12-28T11:04:42.261418 #70319]  INFO -- : 0:  excellent (2.1.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/excellent-2.1.0.gemspec
+I, [2013-12-28T11:04:42.262086 #70319]  INFO -- : 0:  ffi (1.9.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/ffi-1.9.3.gemspec
+I, [2013-12-28T11:04:42.262432 #70319]  INFO -- : 0:  formatador (0.2.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/formatador-0.2.4.gemspec
+I, [2013-12-28T11:04:42.262771 #70319]  INFO -- : 0:  gem-open (0.1.6) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/gem-open-0.1.6.gemspec
+I, [2013-12-28T11:04:42.263108 #70319]  INFO -- : 0:  rb-fsevent (0.9.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rb-fsevent-0.9.3.gemspec
+I, [2013-12-28T11:04:42.263746 #70319]  INFO -- : 0:  rb-inotify (0.9.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rb-inotify-0.9.3.gemspec
+I, [2013-12-28T11:04:42.887871 #70319]  INFO -- : 0:  rb-kqueue (0.2.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rb-kqueue-0.2.0.gemspec
+I, [2013-12-28T11:04:44.087072 #70319]  INFO -- : 0:  listen (1.3.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/listen-1.3.1.gemspec
+I, [2013-12-28T11:04:44.087512 #70319]  INFO -- : 0:  lumberjack (1.0.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/lumberjack-1.0.4.gemspec
+I, [2013-12-28T11:04:44.087848 #70319]  INFO -- : 0:  method_source (0.8.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/method_source-0.8.2.gemspec
+I, [2013-12-28T11:04:44.088167 #70319]  INFO -- : 0:  slop (3.4.7) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/slop-3.4.7.gemspec
+I, [2013-12-28T11:04:44.088490 #70319]  INFO -- : 0:  pry (0.9.12.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/pry-0.9.12.4.gemspec
+I, [2013-12-28T11:04:45.277734 #70319]  INFO -- : 0:  thor (0.14.6) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/thor-0.14.6.gemspec
+I, [2013-12-28T11:04:46.954591 #70319]  INFO -- : 0:  guard (1.8.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/guard-1.8.3.gemspec
+I, [2013-12-28T11:04:46.955350 #70319]  INFO -- : 0:  rspec-core (2.14.7) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-core-2.14.7.gemspec
+I, [2013-12-28T11:04:46.955750 #70319]  INFO -- : 0:  rspec-expectations (2.14.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-expectations-2.14.4.gemspec
+I, [2013-12-28T11:04:46.956129 #70319]  INFO -- : 0:  rspec-mocks (2.14.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-mocks-2.14.4.gemspec
+I, [2013-12-28T11:04:46.956494 #70319]  INFO -- : 0:  rspec (2.14.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-2.14.1.gemspec
+I, [2013-12-28T11:04:47.979819 #70319]  INFO -- : 0:  guard-rspec (3.1.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/guard-rspec-3.1.0.gemspec
+I, [2013-12-28T11:04:49.416954 #70319]  INFO -- : 0:  high_voltage (2.0.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/high_voltage-2.0.0.gemspec
+I, [2013-12-28T11:04:51.429881 #70319]  INFO -- : 0:  railties (3.0.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/railties-3.0.0.gemspec
+I, [2013-12-28T11:04:52.402185 #70319]  INFO -- : 0:  jquery-rails (3.0.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2013-12-28T11:04:52.402599 #70319]  INFO -- : 0:  json (1.8.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2013-12-28T11:04:52.402902 #70319]  INFO -- : 0:  kramdown (1.3.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/kramdown-1.3.0.gemspec
+I, [2013-12-28T11:04:52.403194 #70319]  INFO -- : 0:  pg (0.17.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/pg-0.17.1.gemspec
+I, [2013-12-28T11:04:52.403487 #70319]  INFO -- : 0:  pry-debugger (0.2.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/pry-debugger-0.2.2.gemspec
+I, [2013-12-28T11:04:54.622897 #70319]  INFO -- : 0:  yard (0.8.7.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/yard-0.8.7.3.gemspec
+I, [2013-12-28T11:04:58.828996 #70319]  INFO -- : 0:  pry-doc (0.5.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/pry-doc-0.5.1.gemspec
+I, [2013-12-28T11:04:59.620613 #70319]  INFO -- : 0:  pry-rails (0.3.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/pry-rails-0.3.2.gemspec
+I, [2013-12-28T11:04:59.621075 #70319]  INFO -- : 0:  pry-stack_explorer (0.4.9.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/pry-stack_explorer-0.4.9.1.gemspec
+I, [2013-12-28T11:05:00.523935 #70319]  INFO -- : 0:  rack-timeout (0.0.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-timeout-0.0.4.gemspec
+I, [2013-12-28T11:05:01.402019 #70319]  INFO -- : 0:  rspec-rails (2.14.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-rails-2.14.0.gemspec
+I, [2013-12-28T11:05:01.402442 #70319]  INFO -- : 0:  structured_warnings (0.1.4) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/structured_warnings-0.1.4.gemspec
+I, [2013-12-28T11:05:01.402744 #70319]  INFO -- : 0:  rubytree (0.8.3) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rubytree-0.8.3.gemspec
+I, [2013-12-28T11:05:02.204946 #70319]  INFO -- : 0:  shoulda-matchers (2.4.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/shoulda-matchers-2.4.0.gemspec
+I, [2013-12-28T11:05:03.005478 #70319]  INFO -- : 0:  simple_form (2.1.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/simple_form-2.1.1.gemspec
+I, [2013-12-28T11:05:04.323223 #70319]  INFO -- : 0:  simplecov-html (0.8.0) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/simplecov-html-0.8.0.gemspec
+I, [2013-12-28T11:05:05.139659 #70319]  INFO -- : 0:  simplecov (0.8.2) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/simplecov-0.8.2.gemspec
+I, [2013-12-28T11:05:06.333781 #70319]  INFO -- : 0:  will_paginate (3.0.5) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/will_paginate-3.0.5.gemspec
+I, [2013-12-28T11:05:06.334190 #70319]  INFO -- : 0:  bundler (1.5.1) from /Users/pitosalas/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
