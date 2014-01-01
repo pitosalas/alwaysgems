@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'active_support'
-gem 'adsf'
-gem 'awesome_print'
+gem 'awesome_print'									# Better pretty print than pretty pring
 gem 'better_errors'                 # Better Errors replaces the standard Rails error page with a much better and more useful error page. It is also usable outside of Rails in any Rack app as Rack middleware.
 gem 'brakeman'                      # statically analyzes Rails application code to find security issues at any stage of development.
 gem 'bullet'                        # The Bullet gem is designed to help you increase your application's performance by reducing the number of queries it makes. 
@@ -31,3 +29,4 @@ gem 'shoulda-matchers'              # Collection of testing matchers extracted f
 gem 'simple_form'                   # Forms made easy!
 gem 'simplecov'                     # Cool code coverage analysis using Ruby 1.9 new stuff
 gem 'will_paginate'                 # Classic page pagination for Rails
+gem 'showterm'											# For teaching, a great keyboard record and playback tool
